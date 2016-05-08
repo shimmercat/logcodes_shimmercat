@@ -1,0 +1,241 @@
+-
+    keyCI: devlov-certif-and-key-found
+    codeCI: 40001
+    formatCI: Devlove certificate and key found
+-
+    keyCI: devlov-certif-and-key-not-found-creati
+    codeCI: 40002
+    formatCI: Devlove certificate and key NOT found, creating
+-
+    keyCI: shimme-versio-
+    codeCI: 60001
+    formatCI: 'ShimmerCat, version %%'
+- codeCI: 20001
+  keyCI: new-develo-ca-just-create
+  formatCI: New development CA just created
+
+- codeCI: 40006
+  keyCI: no-previo-redis-db
+  formatCI: No previous Redis DB
+
+- codeCI: 40003
+  keyCI: previo-redis-db-delete
+  formatCI: Previous Redis DB deleted
+
+- codeCI: 40004
+  keyCI: waitin-for-redis-to-initia-itself
+  formatCI: Waiting for Redis to initialize itself
+
+- codeCI: 40005
+  keyCI: wait-for-redis-finish
+  formatCI: Wait  for Redis finished
+
+- codeCI: 20002
+  keyCI: redis-seems-to-be-runnin-alread
+  formatCI: Redis seems to be running already
+
+- codeCI: 10001
+  keyCI: config-file--not-found
+  formatCI:  'Config file %% not found'
+
+- codeCI: 40007
+  keyCI: starti-local-redis-bound-to-unix-socket
+  formatCI: Starting local Redis bound to Unix socket
+
+- codeCI: 40008
+  keyCI: redis-starte
+  formatCI: Redis started
+
+- codeCI: 10002
+  keyCI: file--could-not-be-parsed-error-messag-
+  formatCI: ! 'File %% could not be parsed, error message: %%'
+
+- codeCI: 10003
+  keyCI: worker-could-not-extrac-key-from-shared-store-messag-
+  formatCI: ! 'Worker could not extract key from shared store, message: %%'
+
+- codeCI: 40009
+  keyCI: shimme-listen-at-
+  formatCI: ShimmerCat listens at %%
+
+- codeCI: 60003
+  keyCI: i-say-
+  formatCI: ! 'I say: %%'
+
+- codeCI: 60004
+  keyCI: cache-key-for-domain--is-
+  formatCI: Cache key for domain %% is %%
+
+- codeCI: 40011
+  keyCI: cleani-cache-for-domain-
+  formatCI: Cleaning cache for domain %%
+
+- codeCI: 10004
+  keyCI: exitin-upon-abnorm-condit
+  formatCI: Exiting upon abnormal condition
+
+- codeCI: 10005
+  keyCI: exitin-becaus-except--with-type--bubble-out
+  formatCI: Exiting because exception %% (with type %%) bubbled out
+
+- codeCI: 40012
+  keyCI: connec-to-redis
+  formatCI: Connected to Redis
+
+- codeCI: 41014
+  keyCI: no-appare-fastcg-at-addres--error-was--using-http-for-applic
+  formatCI: ! 'No apparent FastCGI at address %%, error was: %%, using HTTP/1.1 for
+    application'
+
+- codeCI: 41013
+  keyCI: using-fastcg-at-networ-addres--
+  formatCI: Using FastCGI at network address %% .
+
+- codeCI: 11008
+  keyCI: could-not-determ-applic-protoc
+  formatCI: Could not determine application protocol
+
+- codeCI: 11007
+  keyCI: could-not-connec-to-
+  formatCI: Could not connect to %%
+
+- codeCI: 31001
+  keyCI: issuin-reques-with-header-
+  formatCI: ! 'Issuing request with headers %% '
+
+- codeCI: 11006
+  keyCI: an-except-occurr-when-proxyi-a-reques-to-
+  formatCI: An exception occurred when proxying a request to %%
+
+- codeCI: 31002
+  keyCI: c-proxie-appl-respon-status---
+  formatCI: ! 'C/%% Proxied (Appl. response status: %%) %%  %%'
+
+- codeCI: 31003
+  keyCI: receiv-respon-with-header-
+  formatCI: Receiving response with headers %%
+
+- codeCI: 21001
+  keyCI: no-docume-specif
+  formatCI: No document-root specified
+
+
+- codeCI: 12001
+  keyCI: job-for-pushli-failed-
+  formatCI: ! 'Job for push-list failed: %%'
+
+- codeCI: 12002
+  keyCI: was-about-to-push-inexis-file-
+  formatCI: Was about to push inexistent file %%
+
+- codeCI: 12003
+  keyCI: no-data-to-comput-depend
+  formatCI: No data to compute dependencies
+
+- codeCI: 42001
+  keyCI: starte-comput-fetch-trees
+  formatCI: Started computing fetch trees
+
+- codeCI: 42002
+  keyCI: finish-comput-fetch-trees
+  formatCI: Finished computing fetch trees
+
+- codeCI: 12004
+  keyCI: fetch-cache-keys-error-
+  formatCI: ! 'Fetch cache keys error: %%'
+
+- codeCI: 12005
+  keyCI: client-digest-failed-to-decomp
+  formatCI: Client digest failed to decompress
+
+- codeCI: 22001
+  keyCI: cache-for-a-client-became-full-and-was-cleare
+  formatCI: Cache for a client became full and was cleared
+
+- codeCI: 21010
+  keyCI: reject-reques-to-
+  formatCI: Rejected request to %%
+
+- codeCI: 31010
+  keyCI: redire-with--moved-perman---
+  formatCI: Redirect with 301 "moved permanently" %%  -> %%
+
+- codeCI: 15001
+  keyCI: backen-sent-strang-respon-for-reques
+  formatCI: Backend sent strange response for request
+
+- codeCI: 50000
+  keyCI: c-rr-----
+  formatCI: C/%% rr %% %% %% %%  %%
+
+- codeCI: 15002
+  keyCI: when-trying-to-analyz-a-cache-
+  formatCI: ! 'When trying to analyze a cache: %%'
+
+- codeCI: 41015
+  keyCI: -is-new-from--total-alive-now-
+  formatCI: ! '%% is new from %% total alive now: %%'
+
+- codeCI: 21020
+  keyCI: alpn-failed-at-connec-
+  formatCI: ALPN failed at connection %%
+
+- codeCI: 21021
+  keyCI: -http-layer-issue-
+  formatCI: ! '%% HTTP layer issue: %%'
+
+- codeCI: 41016
+  keyCI: ended-connec-
+  formatCI: Ended connection %%
+
+- codeCI: 41017
+  keyCI: -is-new-from-
+  formatCI: ! '%% is new from %%'
+
+- codeCI: 41018
+  keyCI: -handli-here-becaus-fate
+  formatCI: ! '%% handling here because fate=%%'
+
+- codeCI: 41019
+  keyCI: -forwar-to-extern-ip--port-
+  formatCI: ! '%% forwarded to external ip %% port %%'
+
+- codeCI: 41020
+  keyCI: -droppe-becaus-fate
+  formatCI: ! '%% dropped because fate=%%'
+
+- codeCI: 31011
+  keyCI: speed-thrott-bandwi--bytess-latenc--second
+  formatCI: ! 'Speed throttle: bandwidth %% bytes/second; latency %% seconds'
+
+- codeCI: 41021
+  keyCI: starti-socks-server-at-addres-
+  formatCI: Starting SOCKS5 server at address %%
+
+- codeCI: 13001
+  keyCI: keys-encoun--when-talkin-to-redis
+  formatCI: Keys encountered "%%" when talking to Redis
+
+- codeCI: 15003
+  keyCI: could-not-decode-pushhi-error-
+  formatCI: ! 'Could not decode PushHints, error: "%%"'
+
+- codeCI: 15004
+  keyCI: a-push-hints-file--failed-to-parse-with-error-
+  formatCI: ! 'A push hints file %% failed to parse, with error: "%%"'
+
+- codeCI: 14001
+  keyCI: had-to-respaw-a-worker
+  formatCI: Had to re-spawn a worker
+
+- codeCI: 21022
+  keyCI: -pushed-stream--with-label--was-reject
+  formatCI: ! '%% Pushed stream %% with label %% was rejected'
+
+- codeCI: 21023
+  keyCI: -nonpus-stream--with-label--was-reject
+  formatCI: ! '%% Non-pushed stream %% with label %% was rejected'
+
+- codeCI: 21024
+  keyCI: -anonym-stream--was-reject
+  formatCI: ! '%% Anonymous stream %%  was rejected'
